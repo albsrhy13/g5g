@@ -537,7 +537,7 @@ async def _(event):
     الخطأ :
     {str(eee)}''')
 Threads=[] 
-for t in range(210):
+for t in range(205):
     x = threading.Thread(target=_)
     le = threading.Thread(target=gen_user)
     x.start()
